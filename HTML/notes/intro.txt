@@ -1,0 +1,41 @@
+Before learning web dev, 
+     1.  VSCode: Visual studio code is a code editor in which we can write out html,css,js codes. Visual studio code offers great variety of extensions and have huge community.
+       ---> goto the website https://code.visualstudio.com/download and download specific OS
+       ---> double tap on downloaded file --> I accept terms --->click next until installed completely
+       ---> goto file --->open folder and select folder in vscode
+basic settings in VSCode
+      file ---->select autosave
+      settings --->compact folders uncheck
+
+Extensions to install
+       --->   liveserver by ritwik dey
+       --->Prettier by prettier.io
+       --->Material Theme Icons
+
+Web Technologies:
+        These technologies are related to web pages or website developement. It all started with 'WWW(world Wide Web) at CERN by Tim Berners LEE .Later he implement first browser fiendly markup language GML(Generalized Markup Language) but later updated as "HTML"(Hypertext Markup Language). It is the standard language that works in all browsers.The current version of HTML is HTML5
+
+        --> HTML can contain comments which starts with <!--  and ends with -->.These comments are for better understanding code and will not be executed.
+
+        --> HTML contains tags which are used to contain content. whole HTML will be between html open and close tags.
+        <tagname>  --- open tag
+        </tagname> --- close tag
+
+        -->Every tag contains some properties called attributes and these attributes contains value.
+
+        eg: <h1 title = "heading">some text</h1>
+        
+        -->HTML is used for the structure of webpage or websites
+
+        -->  HTML element contains two childern , head and body. head is used for the meta data such as title and body is used for the actual content of webpage or website.
+
+        --> To get basic template code in HTML , we use !+enter or html:5 + enter in VSCode. These shortcuts in VSCode  are called "Emmets"
+
+        --> Left side gaps in code is called Indentation. A better program always have good Indentation and comments to understand code easily
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+Images:  Images can be inserted into web pages using 'img' tag . it will take attributes such as
+      src  -- used for source path of Images
+      alt -- used as an alternative text that works when source is not loaded.
+img is a self closing tag. A self closing tag will not have specific closing tag. These tags are also called unpaired tags
+HTML is not case sensitive.
+  <img src="https://i.pinimg.com/736x/83/7e/6b/837e6bc8615a254a681988bccac87010.jpg" alt="The Shinchan" height="200" width="300"/>
+    <img src="./shinchanImage.webp" alt="Shinchan" height="200">
+    <!-- clickable images -->
+    <a href="https://en.wikipedia.org/wiki/Crayon_Shin-chan" target="_blank">
+         <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Super_Shiro_Poster.jpg" alt="Shiro" height="200"/>
+    </a>
+    <!-- download Image -->
+     <a href="./himawari.jpg" download>
+        <img src="https://i.pinimg.com/736x/f1/81/c0/f181c0fc8387146d3ab00411378b767b.jpg" alt="Himawari" height="200">
+     </a>
+     <!-- Images with Description -->
+      <figure>
+        <img src="https://countryoven.com/productimages/webp/big/lovely-shinchan-family-cake.webp" alt="Family Photo" height="200">
+        <figcaption>It is a family picture of shinchan</figcaption>
+      </figure>
+
+There are different types of images supported by HTML/Browsers such as
+     JPG/JPEG  -- normal images
+     PNG  -- Transparent background images
+     GIF  -- animated Images
+     SVG  -- scalable vector graphics
+     webp -- High Quality Images
+
+Modern HTML Supports Responsive Images such as displaying one image for desktop and another image for mobile etc.., it is possible using 'picture' tag
+   for picture tag we take source using source tag with 'srcset' attribute and 'media' attribute to specify the device width
+   Always sizes should be decreasing order and always default image should be at end.
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

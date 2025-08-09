@@ -1,0 +1,39 @@
+Formatting Tags : These tags are used to format the text such as making the text bold,italic,underlined etc..,
+ Basic Formatting Tags : 
+    b -- b is used to make the text bold
+    i -- i is used to make the text italic
+    strong -- strong is also used to make the text bold but search Engines understand strong as important
+    em -- em is also used to make the text italic  but search engines understand em as a emphasis(reference)
+    u -- u is used to make the text underlined
+    ins -- ins is also used to make the text underlined but search engines understand ins as inserted text
+    s -- s is used to make the text striked out
+    del -- del is used to make the text striked out but search engines understand del as deleted text
+    so, only In search engines perspective , they are different. Always its better to use search engine friendly tags(strong,em,ins,del)
+    sup -- sup is used to make the text superscript
+    sub -- sub is used to make the text subscript
+    abbr -- abbr is used for abbreviation . it uses title attribute to represent full form
+    code -- code is used to make the text as code. it represents code
+    output -- it is used to represent outputs
+    br -- it is used to break the line
+    hr -- it is used to bring horizontal line
+    pre -- it is used to make the text pre formatted(print as it is written)
+    q -- it is used to make quotations to the text
+    blockquote -- it is also used to represents text as quote
+    mark -- it is used to highlight the text
+    bdo -- it is used to make the bi directional text using attribute "dir" with values "ltr" or "rtl"
+    progress -- it is used to make the progress bar with attributes value and max.
+    kbd -- it is used to represent keyboard shortcuts
+    cite -- it is used to represent citation(creative property)
+
+
+
+
+
+
+
+
+
+
+
+
+

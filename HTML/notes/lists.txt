@@ -1,0 +1,58 @@
+Lists in HTML : Lists in HTML are used to list out certain items. Lists are basically three types in HTML
+    i. Ordered Lists
+    ii. unordered Lists
+    iii. Definition Lists
+i. Ordered Lists: In these lists, items order is important and is represented by numbers or alphabets. it uses 'ol' tag and each list item is represented by 'li' tag.
+       <ol>
+         <li>Raj</li>
+         <li>Shekhar</li>
+         <li>John</li>
+       </ol>
+
+
+ii. unordered Lists: These lists are used to print the items that doesn't require order eg: product list, feature lists etc..,
+it uses 'ul' tag with 'li' as element.
+         <ul>
+         <li>Raj</li>
+         <li>Shekhar</li>
+         <li>John</li>
+       </ul>
+
+
+Nested Lists: List inside the another List is considered as Nested List.
+<ul>
+    <li>
+      <ol>
+        <li>Hello</li>
+        <li>Bye</li>
+      </ol>
+    </li>
+</ul>
+
+3. Definition Lists: These lists are used when defitions were included.it contains 'dl" tag. it contains 'dt" ang
+"dd"(definition term and definition data)
+
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Hypertext Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading style sheets</dd>
+    <dt>JS</dt>
+    <dd>Javascript</dd>
+</dl>
+
+
+Block vs Inline : HTML elements are two types i.e., block and Inline elements
+block elements will not allow any element beside them, always displays indipendently
+   There are some container elements which are sed cto combine multiple elements as single element.
+   eg: block  elemets never allows next elements to beside them and Inline elements stay in same line.most used inline element is span
+
+
+
+
+
+
+
+
+

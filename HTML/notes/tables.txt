@@ -1,0 +1,20 @@
+Tables in HTML : Tables in HTML are used to represent the data in rows and columns.The horizontal ones are called rows and the vertical ones are called columns.
+  The whole table is represented between 'table' element
+  Each row uses 'tr' tag
+  Each column uses 'td' or 'th' tag(table data or table heading)
+  <table>
+    <tr>
+       <th>name</th>
+    </tr>
+    <tr>
+       <td>PRASAD</td>
+    </tr>
+  </table>
+
+
+  To combine rows or columns, we can use rowspan or colspan
+  to the first element.
+
+  you can mention captions to Tables using caption tag.
+
+  we can also provide general elements to make search engines understand the code easily such as thead,tbody,tfoot.
