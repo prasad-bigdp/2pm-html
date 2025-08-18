@@ -1,0 +1,19 @@
+HTML5: HTML5 provides new features such semantic elements, responsive images , svg, canvas, drag n drop etc..,
+svg(scalable vector graphics) : it is used to create diagrams in HTML
+   We can draw circles using svg images
+    <circle cx="100" cy="100" r="50" fill="red"></circle>
+   we can draw rectangles using svg images
+    <rect x="100" y="100" height="200" width="200" fill="red"></rect>
+   we can even draw any shapes using svg images "path"
+   <path d="M 50 50 L 150 50 L 150 150 L 50 50 Z"
+        fill="red"></path>
+
+        Here M -- Move to the point
+             L -- draw a line to
+             Z -- end of the path
+
+Canvas: HTML5 provides canvas element which can be used to draw 2D or 3D graphics using Javascript
+    <canvas id="mycanvas"></canvas>
+
+Drag n Drop : HTML5 also provides drag and drop which is possible by making draggable = "true" to every element and with respective Javascript.
+

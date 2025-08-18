@@ -1,0 +1,104 @@
+Forms in HTML : 
+    Forms are the way to collect user's Input and transform the data between client and server
+    eg: login, registration,contact, feedack , address, application, payment etc..,''
+    Every form is enclosed by 'form' element with the following attributes:
+    i. action : action is the oath or file to which submitted dara will get passed.
+    2. method : method is the way to send the data to server.
+    There are two types of methods such address
+       get : get is used to get the data in the URL
+       post : it also sends data to specific page but it will not include in URL.
+
+Every form contains inputs to collect the data and buttons to submit the form
+  <form>
+     <input type = "text">
+     <button>submit</button>
+  </form>
+
+Inputs are self closing tags and they contain attributes like
+    type -- type defines the type of input
+    id -- id is used to identify the element uniquely
+    placeholder -- it is used as dummytext to make user understands what to enter
+    name -- name is used to send the data to server using that name
+
+We can also connect inputs using labels. label is used to describe input and can be connected using for attribute. The 'for' of label should contain 'id' of element
+
+
+Different Types of Inputs:
+Every Input have 'type' attribute to decide what kind of data needs to entered in input.There are several types of inputs such as 
+  i. text: it is used to accept textual data such as usernames,first name,last name etc..,
+  ii. email: it is used to accept email and checks whether @included in inputs or not.
+  iii. password : it is used to enter the data as hidden text
+  iv. number : it is used to enter only numerical data
+  v. date: it is used to select a specific date
+  vi. time: it is used to select a specific time
+  vii. datetime-local : it is the combination date and time inputs
+  viii. file : it is used to upload files/documents
+  ix. color: it is used to select a color from palette
+  x. week : it is used to select a specific week
+  xi. month : it is used to select a specific month
+  xii. url: it is used to enter only URL's
+  xiii. radio : it is used to select a singular choice out of options
+  <input type="radio" name="gender" value="male" id="ma">
+  <label for="ma">Male</label>
+  <input type="radio" name="gender" value="female" id="fe">
+ <label for="fe">Female</label>
+  ix. checkboxes: it is used to select multiple choices out of options
+  <input type="checkbox" name="lang" value="en" id="en" />
+         <label for="en">English</label>
+          <input type="checkbox" name="lang" value="te" id="te" />
+         <label for="te">Telugu</label>
+          <input type="checkbox" name="lang" value="hi" id="hi" />
+         <label for="hi">Hindi</label>
+          <input type="checkbox" name="lang" value="kn" id="kn" />
+         <label for="kn">Kannada</label>
+
+textArea :  textarea is used to enter long texts such as heavy inputs, comments,feedbacks etc..,
+it contains rows and columns
+type : hidden -- it is used to hide inputs so that without
+user's knowledge , we can send some data.
+Fielset : To make border around the elements/fields, we can use , fieldset
+legend : we can specify a name using legend.
+
+
+Form Validation:
+Is it possible to do form Validation without JS in HTML?
+it is possible using some input attributes
+   i.required : it makes the input mandatory
+   ii. readonly : it makes the input only readable but these data will be submitted to the server
+   iii. disabled: it also make input only readable but these data will not be submitted
+   iv. minlength : it is used to provide minimum length to a text field
+   v. maxlength : it is used to provide maximum length to a text field
+   vi. min: it is used to provide minimum numerical value
+   vii. max: it is used to provide maximum numerical value.
+   viii. pattern : patterns uses Regular expression
+         i. [] ---- group
+         ii. {} --- range
+         iii. +  --- atleast 1 of before value
+         iv. * ---- atleast 0 times of before value
+         v. .  -- wilcard -- anyvalue
+         vi. \d -- digits, \w -- words, \s -- sentenses
+[A-Z]{4}[0-9]{4}
+[A-Za-z0-9.-_@#]+@[A-Za-z]+\.[A-Za-z]{2,}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
