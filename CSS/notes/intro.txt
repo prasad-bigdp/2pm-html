@@ -1,0 +1,60 @@
+CSS: CSS stands for Cascading Style Sheets. it is a styling language used to control the layout and appearance of web pages. it was introduced in 1994 . Each file of css is called a sheet.
+CSS can be applied to HTML in three ways:
+   i. inline styling
+   ii. internal styling
+   iii. External styling
+i. inline Styling: This way is used  to apply styles to an element within the same line of element. it applies 'style' as a attribute
+<element style="property:value;.....">content</element>
+eg:  <h1 style="color: red;background-color: blue;">Hello World</h1>
+
+ii. internal CSS: It is used to select elements using a selector and apply the styles using that selector name . it used 'style' as a element. it's better to keep internal styling in head element.
+  <style>
+      selector
+      {
+        property:value;
+        .....
+      }
+  </style>
+eg:  <style>
+        h1
+        {
+         color: red;
+         background-color: blue;
+        }
+    </style>
+
+inline > internal
+
+iii. External Styling: it is completely similar to internal but instead of style element, we create sepearate file with .css extension for styling
+but we need to link the external css file to html using 'link' tag
+
+<link rel="stylesheet" href="path to css file" />
+
+
+inline > internal/external
+Always previous styles will be overwriten by new styles called Cascading
+
+But sometimes, we need to select specific elements, we need to identify elements using some properties.
+ Basic Selectors:  
+    i. tag name : we can select all elements of specific tag using tagname
+    ii. class name : we can define a class name to group multiple elements. Any element can contain multiple class names and multiple elements may contain same class name
+
+    .className{
+        property:value;
+    }
+
+
+  iii. id : we can define an id to identify an element uniquely . No two
+  elements should contain same id.
+
+  #idName{
+     property:value;
+  }
+
+
+
+
+
+
+
+
