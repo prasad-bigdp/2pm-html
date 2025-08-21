@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+h1{
+    /* color: #870909; */
+    /* color: rgb(51, 67, 141); */
+    /* color: rgb(250, 125, 125,0.5); */
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.div1{
+    width: 600px;
+    height: 200px;
+    background-color: red;
+}
+.div2{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+p{
+    text-align: justify;
+}
