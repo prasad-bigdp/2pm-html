@@ -52,17 +52,6 @@ text Properties: we can even assign different properties to text such as
     text-shadow: used to shadow the text (xSize ySize color);
 
 
-Box Model : Box model suggests treating every element in HTML as a BOX.
-A Box contains 
-    i. border
-    ii. border-radius
-    iii. padding
-    iv. margin
-
-
-i. border: border is the surrounding line of an element
-     border: size shape color;
-     we can even specify border-left,border-right,border-top,border-bottom separately
 
 
 
