@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    display: inline-block;
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: green;
+    visibility: hidden;
+}
+.div3{
+    background-color: blue;
+}
+#img1{
+    height: 300px;
+    float: right;
+}
+#img2{
+    height: 300px;
+    float: left;
+}
+p{
+  text-align: justify;
+  clear: both;
+}

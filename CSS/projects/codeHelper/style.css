@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 100px 200px;
+}
+h1{
+    clear: left;
+}
+.helper{
+    color: green;
+}
+a{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+

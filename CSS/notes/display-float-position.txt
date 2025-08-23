@@ -1,0 +1,11 @@
+Float: float is used to make an element remove from actual flow so that next element occupy its space and the element can fit again on either side(left or right).
+     float:left/right/none;
+  To clear float from left or right, you can use 
+     clear:left/right/both
+
+display : it is used to arrange the elements in a specific way
+   display: block -- block elements always starts in new line. They won't allow any other elements beside them
+   display:inline -- inline elements always follow same flow but height / width cannot be accepted
+   display:inline-block -- it is used to apply both inline and block properties so that elements arranges in same line but height and width also accepted
+   display : none -- removes element from page so no space is allocated (visibility :hidden will just hide the element but occupies space).
+   
