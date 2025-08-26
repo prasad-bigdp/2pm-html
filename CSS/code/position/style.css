@@ -1,0 +1,46 @@
+body{
+    height: 500vh;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: static; */
+    /* position: relative; */
+    position: sticky;
+    /* right: 80px;
+    bottom: 80px; */
+    top: 20px;
+    border-radius: 50%;
+}
+.parent{
+    height: 500px;
+    width: 300px;
+    border: 2px solid red;
+}
+.box2,.box3{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+.box2{
+    z-index: 4;
+}
+.box3{
+    background-color: green;
+    z-index: 3;
+}
+img{
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 70px;
+}
+
+
+
+
+
+
