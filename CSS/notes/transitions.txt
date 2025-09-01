@@ -1,0 +1,16 @@
+Transitions: Transitions are used to move an element from one state to another state.
+It contains properties such as :
+    Transition-property: property-name or all
+    Transition-duration:time in seconds
+    Transition-Timing-function :ease/ease-in/ease-out/ease-in-out/linear -- used to control the speed of Transition
+
+properties That can be used in Transition :
+    Tranform : it contains many properties such as 
+       scale() -- used to get zoom effects(eg: scale(1.2),scale(0.5))
+       translateX/translateY -- used to move the element X or Y axis
+       rotate(xdeg) -- used to rotate an element
+       skew(xdeg) -- used to rotate diagonally
+    filter : none/grapscale/invert/hue-rotate/blur/drop-shadow
+    clippath: it is used for different shapes such as polygon ,circle etc..,
+
+

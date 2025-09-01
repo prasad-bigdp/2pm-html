@@ -1,0 +1,9 @@
+Animations: Animations are used between multiple states. We use keyframes to move from one state to another state. Every Animation contains following properties.
+   Animation-name : name of the Animation
+   Animation-duration : time to complete Animation in seconds
+   Animation Timing function: used to control speed of the animation(ease/ease-in/ease-out/ease-in-out/linear)
+   Animation-iteration: number of times animation need to be done(number or infinite)
+   Animation-direction: direction of animation to work(normal/reverse/alternate/alternate-reverse)
+   Animation-delay : it is used as the time to delay the animation.
+
+For Better Animations, you can also use "Animista"
