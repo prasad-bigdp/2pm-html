@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+    --my-color:pink;  
+    --my-black:rgb(16, 12, 12);
+    transition: all 0.5s ease;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color: var(--my-black);
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.logo{
+  font-size: 48px;
+  animation: upDown 0.5s ease infinite alternate;
+}
+@keyframes upDown {
+    100%{
+        transform: translateY(-5px);
+    }
+}
+.logo>span{
+    color:var(--my-color);
+}
+nav>ul>li>a:hover{
+    color: var(--my-color);
+}
+li:hover{
+    transform: scale(1.05);
+}
+
+/* header css over */
+/* banner CSS starts here */
+  #banner{
+    max-width: 1280px;
+    margin: 50px auto;
+    display: flex;
+    gap: 100px;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left>h2{
+    font-size: 32px;
+  }
+  .left>h2>span{
+    color: var(--my-color);
+  }
+  .left>p{
+    color: rgb(133, 132, 132);
+    text-align: justify;
+    line-height: 20px;
+  }
+  .buttons>button{
+    padding: 15px 30px;
+    background-color: var(--my-black);
+    border-radius: 20px;
+  }
+  button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+
+  .secondBtn{
+    background-color: white !important;
+    border: 1px solid var(--my-black);
+  }
+  .secondBtn>a{
+    color: black;
+  }
+
+  .right>img{
+    animation: upDown 1s ease infinite alternate;
+  }
+
+
+
+
+
