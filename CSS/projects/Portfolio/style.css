@@ -184,8 +184,38 @@ footer{
   background-color: black;
   color: white; text-align: center; font-size: 14px;padding: 20px 0px;
 }
+.title{
+  display: flex; gap: 10px;
+  background-blend-mode: difference;
+}
+.letter{
+  animation: textAnimations 2s steps(6) alternate infinite;
+  display: block;
+}
+.letter1{
+  animation-delay: 0.2s;
+}
+.letter2{
+  animation-delay: 0.4s;
+}
+.letter3{
+  animation-delay: 0.6s;
+}
+.letter4{
+  animation-delay: 0.8s;
+}
+.letter5{
+  animation-delay: 1s;
+}
 
-
+@keyframes textAnimations{
+   0%{
+    width:0;
+   }
+   100%{
+    width:100%;
+   }
+}
 
 
 
@@ -198,7 +228,7 @@ footer{
 /* media queries */
 @media (max-width:576px){
   body{
-    
+    background-color: red;
   }
   header{
     flex-direction: column;
