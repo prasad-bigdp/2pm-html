@@ -1,0 +1,40 @@
+Bootstrap is a powerful CSS Library which is used to build responsive User Interfaces. Using Bootstrap, we can apply styles by providing class names which were used in original Bootstrap CSS File. The current version of Bootstrap is Bootstrap5 and the official website is "getbootstrap.com"
+A Library is nothing but a pre written code used for specific purpose.
+How to start/link Bootstrap ?
+ 1. goto getbootstrap.com and 'docs' and 'introduction'
+ 2. copy the css link and js link and paste in your codebase
+
+colors:
+   Bootstrap Provides 8 colors by default such as
+   Primary: blue
+   secondary: gray
+   success: green
+   danger : red
+   warning: yellowish-orange
+   info : skyblue
+   dark: coalblack
+   light: white
+   we can also use white and black
+
+   Bootstrap Provides Class names for css such as
+   Border : we have to provides class names 'border' , 'border-size' and 'border-color' for borders.
+   Always bootstrap sizes ranges from 0 to 5 and colors as listed above
+   Border-radius : rounded , rounded-size, rounded-top,rounded-bottom,rounded-start,rounded-end,rounded-circle,rounded-pill
+   padding : p-size, pt-size,pb-size,ps-size(padding-left),pe-size(padding-end);
+   margin: similar to padding where m means margin instead of p
+
+   float : float-none,float-start,float-end
+   display: d-none,d-block,d-inline,d-inline-block
+   flex : d-flex, flex-direction,justify-content-start/end/between/center,align-items-start/end/center,gap-size
+
+
+
+   
+
+
+
+
+
+
+
+
