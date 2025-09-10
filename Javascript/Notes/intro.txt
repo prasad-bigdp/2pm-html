@@ -1,0 +1,69 @@
+Javascript :  Javascript is a client side, dynamic programming language which is used to build interactivity in web pages. Javascript is used to control the behaviour of web pages and provides functionalities to the web pages.
+  History of JS :
+    Javascript is created by Brenden Eich in 1995 at Netscape company.Initially, it is developed in 10 days and named as  'Mocha', later renamed as 'LiveScript' . To use the popularity of 'Java', it is later renamed as 'Javascript'
+
+Building a web page is like Building a House
+for house, we need 
+   walls, doors, land, windows etc.., -- structure of the house  -- HTML
+   decorate, paint , design --- designing of the house -- CSS
+   electricity, water, gas -- functionalities of the house -- JS
+
+Javascript runs in the Browser because every browser provides a JS engine to run Javascript.
+    chrome --- v8
+    mozilla --- spiderMonkey
+    edge --- chakra
+
+Browsers also Provide some default methods and some tools to inspect and debug the website called Developer tools. 
+Mostly , we use console(one of the developer tools) to debug the Javascript code.
+
+How to include Javascript in HTML?
+  we can include Javascript in HTML using two ways
+  i. internal Javascript
+  ii. External Javascript
+
+i. internal Javascript : we can include internal javascript in HTML using 'script' as a element
+<html>
+    <head>
+        <title>My sample page</title>
+    </head>
+    <body>
+        
+        <script>
+           console.log("Hello World") 
+        </script>
+    </body>
+</html>
+
+ii. External Javascript : we can include External Javascript using script tag with 'src' attribute.
+    <script src="path"></script>
+
+Comments in Javascript: There are two ways to include Javascript Comments
+   i. single line comments: These comments are after double slash (//)
+   ii. Multi line comments : These comments are between /* and */
+
+comments are used only for readability purposes and will not impact output
+
+variables in javascript : variables are used to store the values. Javascript declares variables using any of keywords such as var, let and const
+   var is a function scoped variable which can be redeclared and reassigned
+   let is a block scoped variable which can be reassigned but cannot be redeclared
+   const is a block scoped variable which cannot be redeclared and reassigned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
