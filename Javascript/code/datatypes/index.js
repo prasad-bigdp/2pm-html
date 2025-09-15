@@ -59,41 +59,39 @@
 // let a = 10, b = 20;
 // console.log(`The sum of ${a} and ${b} is ${a+b}`)
 
-let str = "javascript";
-console.log(str.length); //10
-console.log(str[0]);
-console.log(str.charAt(9));
-console.log(str.indexOf('a'));
-console.log(str.lastIndexOf('a'));
-console.log(str.replace('a', 'x'))
-console.log(str.replaceAll("a", "x"))
-console.log(str.toUpperCase());
-console.log(str);
+// let str = "javascript";
+// console.log(str.length); //10
+// console.log(str[0]);
+// console.log(str.charAt(9));
+// console.log(str.indexOf('a'));
+// console.log(str.lastIndexOf('a'));
+// console.log(str.replace('a', 'x'))
+// console.log(str.replaceAll("a", "x"))
+// console.log(str.toUpperCase());
+// console.log(str);
 
-str = "javascript";
-console.log(str.startsWith("px"));
-console.log(str.endsWith("pt"));
+// str = "javascript";
+// console.log(str.startsWith("px"));
+// console.log(str.endsWith("pt"));
 
-console.log(str.slice(0,5)) // from 0th index to 4th index
-console.log(str.slice(3)) // from 3rd index to end
+// console.log(str.slice(0,5)) // from 0th index to 4th index
+// console.log(str.slice(3)) // from 3rd index to end
 
-// split
+// // split
 
-// split will cut the string based on substring and return the remaining parts as array
-str = "prasad"
-console.log(str.split('a'));
-str = "js is so easy";
-console.log(str.split(' '));
-str = "mississippi";
-// how many s are there
-console.log(str.split("s"))
-console.log(str.split('s').length - 1);
+// // split will cut the string based on substring and return the remaining parts as array
+// str = "prasad"
+// console.log(str.split('a'));
+// str = "js is so easy";
+// console.log(str.split(' '));
+// str = "mississippi";
+// // how many s are there
+// console.log(str.split("s"))
+// console.log(str.split('s').length - 1);
 
-/* using split find no of vowels in below statement */
-str = "prasad teaches well"
-console.log(str.split("a").length - 1 + str.split("e").length - 1)
-
-
+// /* using split find no of vowels in below statement */
+// str = "prasad teaches well"
+// console.log(str.split("a").length - 1 + str.split("e").length - 1)
 
 
 
@@ -102,6 +100,14 @@ console.log(str.split("a").length - 1 + str.split("e").length - 1)
 
 
 
+let z;
+console.log(z);
+console.log(typeof z)
+// console.log(p);
+
+
+let x = null
+console.log(x, typeof x);
 
 
 

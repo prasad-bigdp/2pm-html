@@ -56,6 +56,68 @@ Yes, we can and The process of changing one datatype to another datatype is call
            console.log(`${course} is so easy`);
   
    Strings also Provide default methods called string methods
+   length: used to return total number of characters includes space
+   charAt(i) -- used to return the character at specific index
+   indexOf(c) -- used to return the index of first occurance of character 'c'
+   lastIndexOf(c) -- used to return the index of last occurance of character 'c'
+   replace(old,new) -- used to replace old character first occurance with new character.
+   replaceAll(old,new) -- used to replace old character all occurance with new character
+   startsWith('string') -- used to return true/false whether string is starting with given string
+   endsWith('string') -- used to return true/false whether string is ending with given string
+   toUpperCase() -- used to return uppercase values(convert from original String)
+   toLowerCase() -- used to return lowercase values(convert from original String)
+   slice(start,end ) -- used to return sub string starting with 'start' index and ending with end-1 index
+   split('character') -- it splits the string based on character and returns an array
+
+let str = "javascript";
+console.log(str.length); //10
+console.log(str[0]);
+console.log(str.charAt(9));
+console.log(str.indexOf('a'));
+console.log(str.lastIndexOf('a'));
+console.log(str.replace('a', 'x'))
+console.log(str.replaceAll("a", "x"))
+console.log(str.toUpperCase());
+console.log(str);
+
+str = "javascript";
+console.log(str.startsWith("px"));
+console.log(str.endsWith("pt"));
+
+console.log(str.slice(0,5)) // from 0th index to 4th index
+console.log(str.slice(3)) // from 3rd index to end
+
+// split
+
+// split will cut the string based on substring and return the remaining parts as array
+str = "prasad"
+console.log(str.split('a'));
+
+3. Boolean: Boolean is used to store true or false. true can be converted as 1 and false as 0.
+
+4. undefined:  it is the accidental absence of value . it represents uninitialized or future expected values/properties
+
+5. null : it is the intensional absence of value(object). it represents variable not needed/ reached end.
+let z;
+console.log(z);
+console.log(typeof z)
+// console.log(p);
+
+
+let x = null
+console.log(x, typeof x);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

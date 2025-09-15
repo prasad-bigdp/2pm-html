@@ -1,0 +1,17 @@
+Basic JS:
+    Introduction
+    variables
+    DataTypes (number - math methods, strings - string methods, boolean
+               undefined, null)
+    operators
+    control statements(if, switch)
+    loops(while,do while, for)
+    functions
+    Arrays
+    objects
+
+DOM(Document Object Model)
+Advanced JS:
+    timers, AJAX,API's
+    promises, fetch, async await
+    libraries, BOM
