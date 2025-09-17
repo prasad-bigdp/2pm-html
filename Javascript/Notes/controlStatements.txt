@@ -8,6 +8,7 @@ Control Statements (Decision Making Statements):
         //Statements
     }
 
+
 //if-else
     if(condition)
     {
@@ -38,7 +39,15 @@ else{
   }
 
 
-switch: 
+switch:  switch is an alternative control statement for if else if ladder
+syntax: 
+switch(expression/value){
+   case value1: // statements ; break;
+   case value2: // statements ; break;
+   case value3: // statements ; break;
+   case value4: // statements ; break;
+   default: //statements; 
+}
 
 
 
