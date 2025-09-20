@@ -48,6 +48,16 @@
       luxury and sin        40%
     input : price -  4000 , category : common household
     output : total is 200+4000 - 4200
+18/09/2025
+Loops :
+  1. using, while loop , print 1 to 20 (only even numbers) in console
+  2. using while loop add first 5 numbers and print in console
+  3. using a loop , print each and every letter of name "prasad" in reverse
+  4. using a loop, check whether given string is pallindrome or not
+
+
+
+
 
 
 

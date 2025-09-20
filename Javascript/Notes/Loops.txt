@@ -1,0 +1,165 @@
+Loops : Loops are used to iterate certain statements again and again until the condition is false
+  Basically loops repeats certain statements
+Every loops contains initialization , condition and updation
+
+There are two kinds of loops such as 
+   i. Entry control loops
+   ii. Exit control loops
+
+i. Entry control Loops : These loops are used to check the condition at the starting of the loop and only if the condition is true, it allows inside the loop
+   Eg:  while, for
+
+ii. Exit control Loops : These loops are used to check the condition at the ending of the loop and only is the condition is true,  it will re iterate 
+   Eg: do while
+
+For Eg: There is an unlimited buffet
+       condition : paid & HUNGRY
+       statement :  get the food
+
+while : while is an entry control loop which is used to iterate statements using initialization , condition and updation in three different places
+ syntax: 
+     initialization;
+     while(condition){
+        //statements
+        updation;
+     }
+
+     eg: let i =0 ;
+     while(i<=10){
+        console.log(i);
+        i++;
+     }
+
+do while: do while is an exit control loop which is used to check the condition at the ending of loop using initialization, condition and updation in three different places
+  syntax: initialization; 
+         do 
+          {
+            //statements;
+            updation;
+          }while(condition);
+  eg :  let i = 1;
+        do{
+            console.log(i);
+            i++;
+        }while(i<=10);
+
+FOR lOOP:
+    for loop is an entry control loop which is used to iterate certain statements using, while, do while and for in the same line
+   syntax: for(initialization;condition;updation)
+   {
+      //statements;
+   }
+  // write a js code to print number 1 to 20 in reverse order
+    for(let i=20;i>=1;i--)
+    {
+     console.log(i);
+    }
+
+// write a js code to print odd numbers from 1 to 20 using for loop
+
+ for(let i =1;i<=20;i++)
+ {
+   if(i%2==1)
+  {
+   console.log(i);
+  }
+}
+
+
+// write js code to print following pattern
+1
+1 2
+1 2 3
+1 2 3 4
+
+
+let arr = [8, 5, 4, 6, 1];
+// print array elements using for loop
+for (let i = 0; i < arr.length; i++)
+{
+    console.log(arr[i],i)
+}
+
+//JS provides default ways to traverse array
+//for.. of
+for (let i of arr)
+{
+    console.log(i,arr.indexOf(i));
+}
+//for.. in
+for (let i in arr)
+{
+    console.log(i, arr[i]);
+}
+
+for..of and for..in are predefined methods/loops which are used to iterate the array value or address from starting to ending.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
