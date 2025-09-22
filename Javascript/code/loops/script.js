@@ -68,24 +68,48 @@
 
 // console.log(s1.split(''))
 
-let arr = [8, 5, 4, 6, 1];
-// print array elements using for loop
-for (let i = 0; i < arr.length; i++)
+// let arr = [8, 5, 4, 6, 1];
+// // print array elements using for loop
+// for (let i = 0; i < arr.length; i++)
+// {
+//     console.log(arr[i],i)
+// }
+
+// //JS provides default ways to traverse array
+// //for.. of
+// for (let i of arr)
+// {
+//     console.log(i,arr.indexOf(i));
+// }
+// //for.. in
+// for (let i in arr)
+// {
+//     console.log(i, arr[i]);
+// }
+
+
+
+let str = prompt("enetra a string"), revstr = '';
+for (let i = str.length - 1; i >= 0; i--)
 {
-    console.log(arr[i],i)
+    revstr = revstr + str.charAt(i); 
+}
+if (str == revstr)
+{
+    console.log(`${str} is pallindrome`)
+}
+else
+{
+    console.log(`${str} is not pallindrome`)
 }
 
-//JS provides default ways to traverse array
-//for.. of
-for (let i of arr)
-{
-    console.log(i,arr.indexOf(i));
-}
-//for.. in
-for (let i in arr)
-{
-    console.log(i, arr[i]);
-}
+
+
+
+
+
+
+
 
 
 
