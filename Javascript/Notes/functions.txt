@@ -39,6 +39,107 @@ let res = sub(5, 4);
 console.log(res);
 
 
+Functions can also be represented in three ways like
+normal function :
+     function functionName(parameters){
+        //function body
+     }
+function expression:
+     let variableName = function (parameters){
+        //function body
+     }
+  function expressions assigns a name to the anonymous function
+Arrow Functions:
+     let variableName = (parameters) => {
+        //function body
+     }
+     if it is only one statement, arrow functions even work with braces and will return without 'return' keyword
+
+
+
+Callback function : callback function is a function which is passes as a parameter to another function
+function greet(name){
+    console.log(`Hello ${name}`)
+}
+function greetingCard(fun){
+    fun("prasad")
+}
+greetingCard(greet);
+
+//IIFE 
+IIFE stands for Immediate Invoke Function Expression. it provide abstraction and it is used for data security
+
+(function () {
+	let pwd = "kfjhkjdfh6844343$#"
+	console.log(pwd)
+})()
+
+
+closure : closure is a memory of inner function which remembers outer function values even after outer function execution ended.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
