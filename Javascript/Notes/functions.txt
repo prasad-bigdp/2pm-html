@@ -76,6 +76,16 @@ IIFE stands for Immediate Invoke Function Expression. it provide abstraction and
 
 
 closure : closure is a memory of inner function which remembers outer function values even after outer function execution ended.
+function crazyAdd (a)
+{
+    return function inner (b)
+    {
+        return a + b;
+    }
+}
+let res1 = crazyAdd(5);
+let res2 = res1(3);
+console.log(res2)
 
 
 
