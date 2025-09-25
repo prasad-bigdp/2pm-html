@@ -58,7 +58,124 @@ str.split(" ").reverse().join(" ")
    9.  forEach (callback(ele,ind)):
           ForEach will take a callback function and pass that callback function
           for each and every element of the array
-          
+          ArrayName.forEach(function(ele,ind){
+               //body
+          })
+          forEach cannpt return the values;
+     let arr = [5,4,3,2,1] . print squares of each element
+          arr.forEach(function(e,i){
+               console.log(e*e);
+          })
+     but if i tried to return elements whose value is greater than 2
+         let x=  arr.forEach(function(e,i){
+               return ele>2
+          })
+          console.log(x) // undefined
+
+   10. map : map also used to traverse the array and pass a callback to each and every element of the array but map returns the values as a new array
+    ArrayName.map(function(ele,ind){
+     return data;
+    })
+    let names = ["John","Peter","Ram","Krishna"];Return First Letters of all
+    the names as a new array
+    let y = names.map((ele,ind)=> ele.charAt(0))
+    console.log(y) //['J','P','R','K']
+    names = ["shinchan","mexi","Himawari"] .Return only the names that ends with  'i' 
+    let z = names.map((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //[F,T,T];
+
+  Filter : filter is used to return elements (specific) whose condition is true
+  it works similar as map but return only true elements
+   
+ let z = names.filter((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //["mexi","Himawari"]
+
+  Find : it is used similarly as filter but returns only the first element that satisfies the condition
+
+ let z = names.find((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //"mexi"
+
+    we can also get last occurence using FindLast
+
+  some: it is also used similarly as filter but returns true/false based on whether atleast one of the element satisfies the condition or Not.
+   let z = names.some((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //true
+
+   Every: it is also used similarly as filter but returns true/false based on whether every element satisfies the condition or Not.
+   let z = names.every((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //false
+  
+   sort(): sort is used to sort out elements as alphabetically. In case of numbers , we can pass callback to return values for ascending or descending order
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
