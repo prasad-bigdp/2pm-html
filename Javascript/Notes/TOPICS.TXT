@@ -10,8 +10,11 @@ Basic JS:
     Arrays
     objects
 
-DOM(Document Object Model)
+DOM(Document Object Model) :
+        DOM selection, DOM manipulation, DOM creation
+        Events
 Advanced JS:
     timers, AJAX,API's
     promises, fetch, async await
-    libraries, BOM
+    libraries, BOM, ES6
+    

@@ -44,6 +44,39 @@ k[0].textContent = "Bye world"
 ele[0].href = "https://www.instagram.com"
 
   3. getElementsById('id'): it is used to select a single element with specific id. it returns only the element;
+  <a href="https://www.google.com" id="link">click me</a>
+  const link = document.getElementById('link');
+link.href="https://www.quora.com"
+
+  4. querySelector('query') : it is used to select first element that satisfies the query
+  <a href="https://www.google.com" id="link">click me</a>
+  const link = document.querySelector('.link');
+link.href="https://www.quora.com"
+
+  5. querySelectorAll('query'): it is used to select all elements that satisfies the query
+  const y = document.querySelectorAll(".para")
+console.log(y)
+
+
+DOM manipulation: After selecting elements using DOM selectors, we can manipulate it using below attributes
+    i. textContent : it is used to change the text inside the element.
+    ii. innerText : it is also used to change the text inside the element but in case of hidden elements it cannot access value since it respects CSS
+    iii. href/src : These attributes are used to change particular elements attributes
+    iv. style : it is used to update styles of an element
+    v. innerHTML : it is used to update HTML code inside an element
+    vi. classList : it is used to add /remove/toggle classnames to an element
+    vii. value : it is used to accept/update the value of HTML Input elements
+
+
+
+
+
+
+
+
+
+
+
 
 
 

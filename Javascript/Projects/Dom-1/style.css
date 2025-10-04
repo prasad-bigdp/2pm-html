@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 2s ease;
+}
+.hide{
+    display: none;
+}
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1280px;
+}
+.task{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px pink;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 20px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    font-size: 24px;
+}
