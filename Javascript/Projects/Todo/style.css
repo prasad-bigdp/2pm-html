@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(145deg,white,rgb(114, 0, 114));
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 48px;
+}
+.inputs{
+    display: flex;
+    gap: 30px;
+}
+.inputs>input{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inputs>button{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+#list{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wish{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+
+
+
+

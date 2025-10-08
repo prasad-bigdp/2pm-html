@@ -67,6 +67,20 @@ DOM manipulation: After selecting elements using DOM selectors, we can manipulat
     vi. classList : it is used to add /remove/toggle classnames to an element
     vii. value : it is used to accept/update the value of HTML Input elements
 
+DOM creation : we can create elements from javascript using 'document' object with following method
+     document.createElement('elementName');
+
+we can append/add this element into HTML DOM tree using methods
+     append(elements) or appendChild(element)
+
+
+
+
+
+
+
+
+
 
 
 
