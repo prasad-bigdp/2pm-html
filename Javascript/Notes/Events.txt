@@ -23,7 +23,35 @@ Different Types of Events : Based on user's actions , events are divided into mu
   iii. Form Events : These events are triggered by Form actions such as submitting a form, input into a form, selecting some field in form etc..,
   eg: submit, change, input, select etc..,
 
+  iv. window Events : These events are triggered by complete browser/window actions such as 
+   'reload','load','scroll' etc..,
   
+
+Event Propogation : Events can even propogate from parent to child or child to parent called Event Propogation. we can stop it using 'stopPropogation' method. Usually, Event Propogation is of two types
+   i. bubbling
+   ii. capturing
+   
+i. bubbling: This is default event propogation in which events propogate from innermost child to outermost child.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
