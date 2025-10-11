@@ -1,0 +1,191 @@
+AJAX (Asynchronous JavaScript): 
+    Normally JavaScript is synchronous and single threaded language. synchronous means line by line and single threaded means it runs only one task at a time
+    eg: console.log("hi");
+        console.log("bye");
+
+    Asynchronous means it will not execute immediately. AJAX also allows web pages to load specific content without reloading complete UI
+    These are used in API requests to server, file downloads, timers, user inputs,events
+    To understand Asynchronous, we can try timers
+    Browser Provides two methods for timers such as
+     i. setTimeout
+     ii. setInterval
+
+i.setTimeout : setTimeout is a default function Provided by browser which accepts a callback and time in ms. it executes the callback once time is over
+   setTimeout(callback , time in ms);
+ eg: setTimeout(function(){
+     console.log("hi");
+ },5000);
+ it will print "hi" in console after 5s
+ Always JS handles one task using "call stack". All asynchronous tasks are pushed into queue called "task queue" and here tasks wait until its time is over and callstack is free. "Event loop" checks whether call stack is free or not and informs to task queue.
+
+we can clear the timeout using clearTimeout(variable of setTimeout)
+
+ii. setInterval (callback, time in ms): it is exactly similar as setTimeout but it executes after every time, given time is over
+   setInterval(callback, time in ms)
+eg: setInterval(function(){
+   console.log("hi")
+},5000)
+
+
+we can clear the interval using clearInterval(variable of setInterval);
+
+Asynchronous JavaScript used in so many topics such as 
+   i. callback
+   ii. promises
+   iii. Async/await
+
+
+ii. Promises : All promises are future occuring events.A promise is an object which describes an eventual completion of asynchronous operation/task.
+Imagine You were a in hotel, ordered the food, The waiter responded "it will be served soon"  which is a promise. This promise have three states like 
+"pending"   -- waiting for the food
+"fulfilled" -- food got served
+"rejected"  -- food is not served
+
+why we need promises : we need promises to avoid callback hell(one callback inside another callback and so on);
+
+where we can use promises: 
+       API requests
+       Asynchronous tasks
+
+create a promise : we can create a promise using new Promise();
+let x = 10;
+let p = new Promise(function (a,reject)
+{
+    if (x > 15)
+    {
+        setTimeout(()=>resolve("simple value"),2000)
+    }
+    else
+    {
+        reject("Error")
+    }
+})
+console.log(p)
+p
+.then((res)=>console.log(res))
+    .catch((err) => console.log(err))
+
+Promises can be connected with each other one after another one called "promise chaining"
+
+let p2 = new Promise((resolve, reject) =>
+{
+    setTimeout(() => resolve(20), 5000);
+})
+
+
+p2
+    .then((res) => res * 2)
+    .then((res2) => res2 * 2)
+    .then((res3) => console.log(res3))
+    .catch((err) => console.log(err));
+
+Incase of multiple promises you can use, Promise.all() or Promise.race() or Promise.any()
+
+Promise.all() : it takes an array of promises and returns a single value. it will get resolved only after all promises got resolved but it will be rejected if any one of the promise got rejected
+let a1 = Promise.resolve(5);
+let a2 = Promise.resolve(6)
+let a3 = Promise.resolve(7)
+
+Promise.all([a1, a2, a3])
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err));
+
+Promise.race() : it takes an array of promises and returns single value. it will return the first value/the promise that respond(resolve/reject)
+let a4 = new Promise((resolve,reject)=>setTimeout(()=>resolve(5),5000))
+let a5 = new Promise((resolve, reject) => setTimeout(() => reject("error"), 2000))
+Promise.race([a4, a5])
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err));
+The difference between Promise.race and promise.any is race returns first responded value but any 
+will return first resolved value
+
+API (Application Programming Interface):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
