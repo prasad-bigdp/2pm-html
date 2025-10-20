@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 500vh;
+}
+header{
+   background-color: black;
+   color: white;
+   padding: 30px 20px;
+   font-size: 48px;
+   text-align: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.myDiv{
+    background-color: red;
+    padding: 20px;
+    height: 30px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+}
+main{
+    height: 50vh;
+    border: 2px solid red;
+}
+.myDiv2{
+     background-color: red;
+    padding: 20px;
+    height: 30px;
+    position: sticky;
+    top: 180px;
+    width: 50px;
+   
+}

@@ -1,0 +1,221 @@
+ES6 Features:
+    let, const
+    template literals
+    arrow functions
+    default parameters
+    destructuring (arrays, objects)
+    spread operator
+    rest parameters
+    classes
+    modules (import, export)
+    promises
+    async/await
+    Map, Set
+
+ES stands for EcmaScript : it is the standard version that javascript follows. In 2015, They released version ES2015 also called ES6. Latest version is ES15 released on June,2024
+
+ 1. let, const: 
+      These are block scoped variables which stores data in temporal dead zone. you cannot access them before declaration. let can change its value but const cannot
+      let a = 20;
+      a=30;
+      const b=20;
+
+2. template Literals :  it is used for dynamic string, it uses backticks and ${} for dynamic values
+       let name= "John"
+       console.log(`Hello ${name}`)
+
+3.  Arrow functions: These are the modern representation of function which cannot be called before the declaration
+       const fun = ()=>{
+        console.log("hi")
+       }
+it returns value with 'return' keyword if only one statement is avaialble in definition
+
+4.  default parameters : In a case parameters are not passed, function assumes them as undefined. Instead we can use default parameters
+  function greet(n="john")
+  {
+    console.log("HEllo "+n)
+  }
+   greet();
+
+5. destructuring(arrays /objects) : we can destructure any object/array so that we can use its values individually
+ //Array destructure
+    let arr = [5,4,6,9]
+    let [a,b,c,d] = arr;
+ // object destructuring
+ let obj = {
+    name:"raj",
+    age: 25
+}
+let {age} = obj;
+cosole.log(age);
+
+6. spread operator and rest parameters : 
+   rest parameters : it is used to represent rest of the parameters. it is always written at last of parameters and will take all values as an array. it is represented by three dots (...)
+function sum (...c)
+{
+    let s = c.reduce((prev, curr) => prev + curr, 0) 
+    console.log(s)
+}
+sum(5, 4, 6, 8, 9, 7)
+sum(2, 3);
+sum(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13);
+
+// example 2 :
+let [a,...b] = [5,1,2,3];
+
+spread operator : it is used to spread the array values into individual values. it is also represented by three dots
+   let arr = [5, 4, 3, 2, 1];
+let arr2 = [...arr,6] // [[5,4,3,2,1],6]
+console.log(arr2);
+let a1 = [1, 2], a2 = [3, 4]
+let a3 = [...a1, ...a2]
+console.log(a3)
+
+The differnce between rest and spread are
+    i. rest must be last in parameters list but spread can be anywhere
+    ii. rest receives the data and packs it in array. spread actually remove the array elements from array and gives them
+Both uses three dots (...)
+
+
+7. modules :  Before ES6 , JS used to follow commonjs module system but ES6 brought ES6 module system. Module Systems are used to import/export the data or functions between multiple JS files
+
+In ES6 module system , we use keywords import and export to send/receive data or functions
+
+export { n, arr, arr2, a1, a3, sum }
+
+//default export
+export default a2;
+
+// named imports
+import * as k from './script.js'
+import prasad from './script.js'
+console.log(k.n)
+k.sum(5, 6)
+console.log(prasad)
+
+8. OOP : javascript allows classes from ES6(ES2015) version which makes js follows OOP (object oriented programming).
+Probelm : Jack wants six pack.
+solution 1 : wake up early --> goes to zym --> do some execrises --> main diet -->repeat --> until 9 months  (POP - Procedure oriented Programming C)
+solution 2:Build some muscle --> build some chest --> biceps(MP --> Modular programming)
+solution 3:to get six pack what time to wake up --> what execercises(OOP --object oriented Programming)
+
+Object --- Any physical entity  -- properties and methods
+     eg: APPLE --- color,taste,shape, eat()
+
+Class  -- collection of objects  -- no existence
+     eg: FRUITS
+
+syntax: class className{
+
+}
+classes contains properties and methods together as a single unit(encapsulation). There are no direct methods to display abstraction in JS but anything which is written is functions are always abstracted
+
+eg: class Car{
+   cmodel , mileage, price;
+   constructor(a,b,c){
+      this.cmodel =a;this.speed =b;this.price =c;
+   }
+   drive(){
+        console.log(`${this.cmodel} is working well`)
+   }
+}
+
+let obj1 = new Car ("Tata Punch",20kmph,6)
+let obj2 = new Car("Camry",15kmph,10)
+
+Classes in JS can have inheritance(aquiring properties from parent class). it can be achieved using "extends" keyword
+
+   class ElectricCar extends Car{
+      batteryCapacity;
+       constructor(p,q,r,s){
+         super(p,q,r);
+         this.batteryCapacity = s;
+       }
+   }
+
+   let obj3= new ElectricCar("tesla",15kmph, 73)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

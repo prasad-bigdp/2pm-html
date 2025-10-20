@@ -1,0 +1,12 @@
+pokemon api -- pokeapi
+random people -- randomeuser.me/api
+random Quote -- https://dummyjson.com/quotes/random
+random jokes api
+receipes
+products
+fakestore api
+nasa api
+github api
+imdb api
+open weather api
+dev.to api

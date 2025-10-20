@@ -1,0 +1,167 @@
+DataTypes : DataTypes in javascript are not fixed. javascript is a dynamic programming language, it means here, there is no fixed datatype for variables. The datatype of a variable is decided by the value it is holding
+ There are two categories of datatypes such as
+  i . primitive data types :  These datatypes compares the value and are immutable(cannot be changed)
+    Most basic primitive datatypes in js are
+    number, string, boolean, undefined, null
+  ii. non - primitive datatypes : These datatypes compares the addresses and are mutable(can be chnaged)
+    Most basic non primitive datatypes are
+    function, array,object
+   These datatypes also called as reference datatypes
+
+To find the datatype of a varible, we can use an operator 'typeof'
+
+Can we change one datatype to another datatype?
+Yes, we can and The process of changing one datatype to another datatype is called typecasting. There are two types of typecasting are there such as
+   a. implicit typecasting
+      it is the default typecasting means based on operations it convert values into other datatypes
+       for eg: if string is performing + , it is considered as concatenation and all other will be converted into string
+       if number or boolean performing + , it is considered as artithematic and all other will be converted into number
+       eg: 5 + '4' ==> '5' + '4' ===>'54'
+           5 - '4' ==> 5 - 4  ===>1
+   b. explicit typecasting : sometimes , we can use some methods or default constructors to convert one datatype to another datatype
+       eg : 5.toString() + 6.toString() ===> '56'
+            5 + Number('6')  ===>  11
+             5  +  +'6'  ===> 11
+
+    i. number : Any numerical value is considered as number . 
+     let x = 25.4169;
+     x is a number
+     we can use some default methods such as
+      1. toFixed(n) -- used to return n digits after decimal(round up)
+      2. toPrecision(n) -- used to return roundup value of n total digits
+      3. toString(base) -- used to convert number into string of specific base system
+
+    numbers can also do Math Methods such as
+    i. sqrt(n) --- returns square root of n
+    ii. cbrt(n) --- returns cube root of n
+    iii. pow(a,b) --- returns a power b , we can also use a**b
+    iv. abs(n)  --- returns the absolute value of n (only positive)
+    v. max(a,b,c,d) --- returns maximum value among the given values
+    vi. min(a,b,c,d) --- returns minimum value among the given values
+    vii.ceil(n) --  returns the nearest greater value
+    viii. floor(n) --- returns nearest smaller value
+    ix. round(n) --- returns rounded value to the nearest integer
+    x. random()  --- returns random value between 0 and 1
+
+2. strings :  string is a collection of characters. strings can be represented in js in three ways
+   i. using single quotes
+   ii. using double quotes
+   iii. using backticks
+
+   There is no difference between single quote or double quote. sometime we need to wrap nested strings, there we can use these
+
+   using backticks , we can create dynamic strings also called "template literals" which are embraced between `` (backticks) and dynamic values are written within ${}.
+
+   for eg: let course = "javascript"
+           console.log(`${course} is so easy`);
+  
+   Strings also Provide default methods called string methods
+   length: used to return total number of characters includes space
+   charAt(i) -- used to return the character at specific index
+   indexOf(c) -- used to return the index of first occurance of character 'c'
+   lastIndexOf(c) -- used to return the index of last occurance of character 'c'
+   replace(old,new) -- used to replace old character first occurance with new character.
+   replaceAll(old,new) -- used to replace old character all occurance with new character
+   startsWith('string') -- used to return true/false whether string is starting with given string
+   endsWith('string') -- used to return true/false whether string is ending with given string
+   toUpperCase() -- used to return uppercase values(convert from original String)
+   toLowerCase() -- used to return lowercase values(convert from original String)
+   slice(start,end ) -- used to return sub string starting with 'start' index and ending with end-1 index
+   split('character') -- it splits the string based on character and returns an array
+
+let str = "javascript";
+console.log(str.length); //10
+console.log(str[0]);
+console.log(str.charAt(9));
+console.log(str.indexOf('a'));
+console.log(str.lastIndexOf('a'));
+console.log(str.replace('a', 'x'))
+console.log(str.replaceAll("a", "x"))
+console.log(str.toUpperCase());
+console.log(str);
+
+str = "javascript";
+console.log(str.startsWith("px"));
+console.log(str.endsWith("pt"));
+
+console.log(str.slice(0,5)) // from 0th index to 4th index
+console.log(str.slice(3)) // from 3rd index to end
+
+// split
+
+// split will cut the string based on substring and return the remaining parts as array
+str = "prasad"
+console.log(str.split('a'));
+
+3. Boolean: Boolean is used to store true or false. true can be converted as 1 and false as 0.
+
+4. undefined:  it is the accidental absence of value . it represents uninitialized or future expected values/properties
+
+5. null : it is the intensional absence of value(object). it represents variable not needed/ reached end.
+let z;
+console.log(z);
+console.log(typeof z)
+// console.log(p);
+
+
+let x = null
+console.log(x, typeof x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

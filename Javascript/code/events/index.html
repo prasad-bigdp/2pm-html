@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- <style>
+        *{
+            transition: all 0.5s ease;
+        }
+        button{
+            position: absolute;
+        }
+    </style> -->
+</head>
+<body class=" bg-primary-subtle text-success d-flex flex-column justify-content-center align-items-center" style="height: 100vh;">
+    <!-- <p id="count">0</p>
+    <button id="btn">click me</button>
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" alt="doremon" height="200" id="image"> -->
+    <h2 class=" text-success fs-1 text-center">Simple Form</h2>
+    <form id="fr" class=" d-flex flex-column gap-5 p-5 rounded-3 bg-white">
+        <input type="email" id="inpEmail" placeholder="Enter email" class="form-control">
+        <input type="password" id="inpPassword" placeholder="Enter password" class="form-control">
+        <div id="errors" class=" text-danger"></div>
+        <button class=" btn btn-primary">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
+

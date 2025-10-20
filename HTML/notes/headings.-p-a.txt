@@ -1,0 +1,40 @@
+Headings: Headings are used to represent important and strong text in HTML pages. There are 6 headings available in HTML
+  h1,h2,h3,h4,h5 and h6.
+Each one differs in size and importance. They decline from h1 to h6. h1 is the largest and important heading of the page and h6 is the smallest and least important heading of the page.
+eg: <h1>some text</h1>
+All headings are bold.
+
+paragraph: The normal text in web pages can be written in p tag (paragraph).
+Eg: <p>some text</p>
+For dummy paragraph to generate, we can use "lorem" Emmets
+
+Anchor Tag: Anchor tag is used to connect or navigate from one webpage to another web page. it uses 'a' tag
+<a  href="">some text</a>
+The path of the destination is mentioned in "href" attribute.
+To make the link/href open in new tab, attribute 'target' should be "_blank"
+ <!-- simple anchor tag -->
+    <a href="https://www.google.com">click here</a>
+    <!-- anchor tag in new tab -->
+     <a href="https://www.netflix.com" target="_blank">click for netflix</a>
+    <!--anchor tag for downloading-->
+    <a href="./Ajinkya_Mule_Resume (1).pdf" download>download resume</a>
+    <!-- local web page  -->
+     <a href="./about.html">About</a>
+     <a href="../first/index.html">Yester project</a>
+
+     <!-- watsapp-->
+      <a href="https://wa.me/+919589589588">Watsapp me</a>
+
+     <!-- mail me -->
+      <a href="mailto:abc@gmail.com">Mail me</a>
+
+      <!--phone-->
+      <a href="tel:9848022338">call me</a>
+
+
+
+
+
+
+
+

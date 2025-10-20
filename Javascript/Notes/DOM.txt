@@ -1,0 +1,129 @@
+Object: Object is used to store keyed collections of various data and more complex entities(Key - value pair). It is a fundamental building block in JavaScript. In JavaScript, almost everything is an object, including arrays, functions, and even primitive data types like strings and numbers when they are treated as objects.
+eg: let obj = {
+    name:"Prasad",
+    age:55,
+    email:"a@a.com"
+}
+There are two ways to access any object value like
+1. dot method
+    console.log(obj.name); //Prasad
+2. index signature
+    console.log(obj["name"]); //Prasad
+
+Objects provide methods such as :
+   Object.keys(objectName)  -- returns an array of object keys
+   Object.values(objectName) -- returns an array of object values
+   Object.create(objectName) -- it creates new object with existing object as parent. it automatically can access parents properties called as "Prototype Inheritance"
+   Object.seal(objectName) -- it restricts objects such that it cannot add a property but can change the existing property
+   Object.freeze(objectName) -- it restricts objects such that it cannot add a property and cannot change the existing property
+   let obj = {
+    name : "prasad",
+    fun : function(){
+        console.log("HII")
+    }
+   }
+ Deep and Shallow Copy: when you copy an object or array, we can use deep or shallow copies
+    A shallow copy creates new array or object and copies the references of original elements
+ Deep copy:
+    A Deep copy creates new object or array and copies the values of original elements 
+
+Document Object Model(DOM):  There is an object called 'document' provided by Browser which contains complete HTML and CSS of a webpage. The document is stored in the browser and display the page
+JS can access document object and manipulate the elements. 
+Document objects stores elements, attributes in the form of tree called DOM tree . 
+
+DOM Selection:  We can Select HTML elements in javascript using document object with following methods
+   i. getElementsByTagName('tagName') : it will all elements of specific tag name and returns a HTMLCollection Array.
+   const k = document.getElementsByTagName('h1');
+console.log(k[0]);
+console.log(k[0].textContent)
+k[0].textContent = "Bye world"
+
+
+  2.  getElementsByClassName('className') : It is used to select multiple elments with a class name and it return an HTMLCollection Array
+  const ele = document.getElementsByClassName('link');
+ele[0].href = "https://www.instagram.com"
+
+  3. getElementsById('id'): it is used to select a single element with specific id. it returns only the element;
+  <a href="https://www.google.com" id="link">click me</a>
+  const link = document.getElementById('link');
+link.href="https://www.quora.com"
+
+  4. querySelector('query') : it is used to select first element that satisfies the query
+  <a href="https://www.google.com" id="link">click me</a>
+  const link = document.querySelector('.link');
+link.href="https://www.quora.com"
+
+  5. querySelectorAll('query'): it is used to select all elements that satisfies the query
+  const y = document.querySelectorAll(".para")
+console.log(y)
+
+
+DOM manipulation: After selecting elements using DOM selectors, we can manipulate it using below attributes
+    i. textContent : it is used to change the text inside the element.
+    ii. innerText : it is also used to change the text inside the element but in case of hidden elements it cannot access value since it respects CSS
+    iii. href/src : These attributes are used to change particular elements attributes
+    iv. style : it is used to update styles of an element
+    v. innerHTML : it is used to update HTML code inside an element
+    vi. classList : it is used to add /remove/toggle classnames to an element
+    vii. value : it is used to accept/update the value of HTML Input elements
+
+DOM creation : we can create elements from javascript using 'document' object with following method
+     document.createElement('elementName');
+
+we can append/add this element into HTML DOM tree using methods
+     append(elements) or appendChild(element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

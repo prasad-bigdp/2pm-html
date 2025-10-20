@@ -1,0 +1,23 @@
+Grid  : Grid is used to arrange elements in two directional way like rows and columns
+   Parent Properties:
+   display:grid --  it is used to make child items fit for grid in single column
+   grid-template-columns -- it is used to divide into multiple columns of specific width
+       grid-template-columns:100px 50px 100px ; divides into three columns of respective widths
+       grid-template-columns:20% 50% 30%; will divide into three columns of respective percentages
+       grid-template-columns:1fr 3fr; will divide into two columns of respective fractions
+       we can also use repeat(3,20%) to repeat 20% three times.
+
+    grid-template-rows -- it is used similarly as grid-template-columns but for rows height.
+    gap -- it is used to provide gap between items. we can also individually provide row-gap and column-gap.
+
+  child Properties: 
+          grid-row-start --- provides starting row line number
+          grid-row-end --- provides ending row line number
+          grid-column-start --- provides starting column line number
+          grid-column-end --- provides ending column line number
+          grid-row: grid-row-start/grid-row-end;
+          grid-column: grid-column-start/grid-column-end;
+          grid-area: grid-row-start/grid-column-start/grid-row-end/grid-column-end;
+
+
+

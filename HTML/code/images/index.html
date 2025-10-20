@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Images</title>
+</head>
+<body>
+    <img src="https://i.pinimg.com/736x/83/7e/6b/837e6bc8615a254a681988bccac87010.jpg" alt="The Shinchan" height="200" width="300"/>
+    <img src="./shinchanImage.webp" alt="Shinchan" height="200">
+    <!-- clickable images -->
+    <a href="https://en.wikipedia.org/wiki/Crayon_Shin-chan" target="_blank">
+         <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Super_Shiro_Poster.jpg" alt="Shiro" height="200"/>
+    </a>
+    <!-- download Image -->
+     <a href="./himawari.jpg" download>
+        <img src="https://i.pinimg.com/736x/f1/81/c0/f181c0fc8387146d3ab00411378b767b.jpg" alt="Himawari" height="200">
+     </a>
+     <!-- Images with Description -->
+      <figure>
+        <img src="https://countryoven.com/productimages/webp/big/lovely-shinchan-family-cake.webp" alt="Family Photo" height="200">
+        <figcaption>It is a family picture of shinchan</figcaption>
+      </figure>
+
+      <!-- responsive images -->
+       <picture>
+          <source media="(min-width:1080px)" srcset="https://i.pinimg.com/736x/59/a0/d7/59a0d73139b06bd5191bfd6e12758b42.jpg">
+            <source media="(min-width:760px)" srcset="https://m.media-amazon.com/images/I/51tKIR7GWYL.jpg">
+          <img src="https://icon2.cleanpng.com/lnd/20241120/qf/510a1a92807bb47ed4800f0d3dc549.webp" alt="The Shinchan" height="200">
+       </picture>
+</body>
+</html>

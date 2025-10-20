@@ -1,0 +1,12 @@
+Libraries:
+      Library is a pre written code for a specific purpose.
+      Famous libraries are
+        i. JQuery
+        ii. React
+        iii. charts js /am4charts
+        iv. gsap
+        v. three js
+        vi. slick /owl carousel /swiper js
+        vii. vue
+ How to use library?
+    Attach CDN LINK ,read documentation and apply the method

@@ -1,0 +1,171 @@
+Instead of writing complete program is single code, we divide the code into small logical parts called functions
+  Advantages of functions : 
+     i. code reusability
+     ii. code readbility
+     iii. Easy to understand and debug
+Functions and methods are different, methods belongs to an object of class like String contains toUpperCase()
+
+ // simple functions
+    function functionName()      //-- function declaration
+    {
+          //statements          //function definition
+    }
+    functionName();              //function call
+
+Every function contains function declaration, function definition, function call
+
+function can take parameters . In case parameters are not passed, it will take values undefined or default values
+// write a js function 'add'  that accepts two values and prints their sum
+function add (a=3, b=10)
+{
+    console.log(a + b);
+}
+// add(4, 5);
+// add(4);
+// add();
+add(5); add("raj", "prasad");
+add();
+add(5, 3);
+add(1, 2, 5);
+
+functions can also return the values to the place where it gets called.
+function sub (a, b)
+{
+    return a - b;
+}
+
+let res = sub(5, 4);
+
+console.log(res);
+
+
+Functions can also be represented in three ways like
+normal function :
+     function functionName(parameters){
+        //function body
+     }
+function expression:
+     let variableName = function (parameters){
+        //function body
+     }
+  function expressions assigns a name to the anonymous function
+Arrow Functions:
+     let variableName = (parameters) => {
+        //function body
+     }
+     if it is only one statement, arrow functions even work with braces and will return without 'return' keyword
+
+
+
+Callback function : callback function is a function which is passes as a parameter to another function
+function greet(name){
+    console.log(`Hello ${name}`)
+}
+function greetingCard(fun){
+    fun("prasad")
+}
+greetingCard(greet);
+
+//IIFE 
+IIFE stands for Immediate Invoke Function Expression. it provide abstraction and it is used for data security
+
+(function () {
+	let pwd = "kfjhkjdfh6844343$#"
+	console.log(pwd)
+})()
+
+
+closure : closure is a memory of inner function which remembers outer function values even after outer function execution ended.
+function crazyAdd (a)
+{
+    return function inner (b)
+    {
+        return a + b;
+    }
+}
+let res1 = crazyAdd(5);
+let res2 = res1(3);
+console.log(res2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

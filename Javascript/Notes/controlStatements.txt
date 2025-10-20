@@ -1,0 +1,66 @@
+Control Statements (Decision Making Statements):
+      These Statements are used to change the flow of code based on a condition or Decision. Most widely used Decision making statement are if and switch
+
+ i . if : it is used to run particular statement based on true/false of condition
+ //simple if
+    if(condition)
+    {
+        //Statements
+    }
+
+
+//if-else
+    if(condition)
+    {
+        //Statements
+    }
+    else{
+        // else statements
+    }
+
+// if else if
+if(condition)
+{
+     //statements
+}
+else if(condition2){
+    // statements
+}
+......
+else{
+    //Statements
+}
+
+//nested if : if statement inside another if statement
+  if(condition1){
+       if(condition2){
+        //statements
+       }
+  }
+
+
+switch:  switch is an alternative control statement for if else if ladder
+syntax: 
+switch(expression/value){
+   case value1: // statements ; break;
+   case value2: // statements ; break;
+   case value3: // statements ; break;
+   case value4: // statements ; break;
+   default: //statements; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

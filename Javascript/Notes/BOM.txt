@@ -1,0 +1,108 @@
+Browser Object Model: It allows Javascript to interact with the browser not only the web page
+The browser object is "window"
+Basic Browser use : we can open a webpage or close it using
+  let variable= window.open(url)
+   window.close() or  variable.close();
+Location Details : we can get location (current web page) details using
+   window.location.href --- current webpage link
+   window.location.Search --- current webpage search details
+   window.location.reload() --- it will reload the current webpage
+   window.location.replace(currentURL, newURL)-- replaces current url
+
+history : Browser object cannot access history pages but it can access 
+   length -- number of pages
+   back()  -- previous page
+   forward() -- next page
+   go(-2) -- goes back 2 pages
+
+All methods such as setTimeOut,setInterval,clearTimeout,clearInterval,prompt,confirm,alert ,fetch and objects like console,document are provided by window object only
+
+
+LocalStorage and sessionStorage : Browser can store the data using LocalStorage or sessionStorage. LocalStorage is permanant and sessionStorage is temporary(stays only until the browser stays)
+LocalStorage.setItem(itemName,value)
+it stores always value as string/single value
+LocalStorage.removeItem(itemName)
+LocalStorage.clear();
+LocalStorage.getItem(itemName)
+
+same methods follows for session storage also
+More BOM features:
+Screen : it provides screen details
+   window.screen.width
+   window.screen.height
+   window.screen.availWidth
+   window.screen.availHeight
+   window.screen.colorDepth
+   window.screen.pixelDepth
+Navigator : it provides browser details
+   window.navigator.appName   -- browser name
+   window.navigator.appVersion -- browser version        
+   window.navigator.userAgent  -- browser details
+   window.navigator.platform   -- OS details
+   window.navigator.language   -- browser language
+   window.navigator.onLine     -- online or offline
+   window.navigator.cookieEnabled -- cookies enabled or not
+SpeechSynthesis : it provides text to speech conversion
+   let msg = new SpeechSynthesisUtterance('hello world')
+   window.speechSynthesis.speak(msg)
+   window.speechSynthesis.cancel() -- to stop speech
+   window.speechSynthesis.pause()  -- to pause speech
+Media Recorder : it provides audio and video recording
+   navigator.mediaDevices.getUserMedia({audio:true}) -- for audio
+   navigator.mediaDevices.getUserMedia({video:true}) -- for video
+   navigator.mediaDevices.getUserMedia({audio:true,video:true}) -- for both
+   it returns a promise
+   let mediaRecorder = new MediaRecorder(stream)
+   mediaRecorder.start()   
+   mediaRecorder.stop()
+   mediaRecorder.pause()
+   mediaRecorder.resume()
+   mediaRecorder.ondataavailable = function(e){
+      chunks.push(e.data)
+   }
+
+   mediaRecorder.onstop = function(e){
+      let blob = new Blob(chunks,{type:'video/mp4'})
+      chunks = []
+      let videoURL = window.URL.createObjectURL(blob)
+      let a = document.createElement('a')
+      a.href=videoURL
+      a.download='video.mp4'
+      a.click()
+   }
+   mediaRecorder.onerror = function(e){
+      console.log(e.error)
+   }
+   mediaRecorder.onstart = function(e){
+      console.log('recording started')
+   }
+   mediaRecorder.onpause = function(e){
+      console.log('recording paused')
+   }
+   mediaRecorder.onresume = function(e){
+      console.log('recording resumed')
+   }
+   mediaRecorder.onstop = function(e){
+      console.log('recording stopped')
+   }
+   mediaRecorder.onwarning = function(e){
+      console.log(e.warning)
+   }
+   mediaRecorder.ondataavailable = function(e){
+      console.log('data available')
+   }
+   mediaRecorder.onstop = function(e){
+      console.log('recording stopped')
+   }
+   
+
+
+
+
+
+
+
+
+
+
+

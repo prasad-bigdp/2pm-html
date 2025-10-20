@@ -1,0 +1,57 @@
+Events : Events are the User actions on a web page which triggers a particular function or block of code.
+We can add Events to a partcular element in two ways
+   i. Event Handler
+   ii. Event Listener
+
+i. Event Handler: Event Handlers attach 
+event to a function in HTML. usually they starts with 'on'
+   eg: onclick, onsubmit, onmouseover etc..,
+
+ii. Event Listener : Event Listeners attach event to a function in JS. They use callback functions for event trigger. They also support event propogation
+  syntax: element.addEventListener('event name', callback function)
+  We can also remove events using remove Event Listener
+
+  Event Listners passes one default object to the callback function called 'event object'
+
+Different Types of Events : Based on user's actions , events are divided into multiple types such as
+   i. Mouse Events: These events are triggered by mouse actions.
+   Eg: click,dblclick, mouseover,mouseout,mouseup,mousedown etc..,
+   
+  ii. keyboard Events : These events are triggered by keyboard actions
+    Eg: keyup, keydown, keypress
+   
+  iii. Form Events : These events are triggered by Form actions such as submitting a form, input into a form, selecting some field in form etc..,
+  eg: submit, change, input, select etc..,
+
+  iv. window Events : These events are triggered by complete browser/window actions such as 
+   'reload','load','scroll' etc..,
+  
+
+Event Propogation : Events can even propogate from parent to child or child to parent called Event Propogation. we can stop it using 'stopPropogation' method. Usually, Event Propogation is of two types
+   i. bubbling
+   ii. capturing
+   
+i. bubbling: This is default event propogation in which events propogate from innermost child to outermost child.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

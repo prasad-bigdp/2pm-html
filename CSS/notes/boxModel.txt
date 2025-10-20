@@ -1,0 +1,23 @@
+Box Model : Box model suggests treating every element in HTML as a BOX.
+A Box contains 
+    i. border
+    ii. border-radius
+    iii. padding
+    iv. margin
+
+
+i. border: border is the surrounding line of an element
+     border: size shape color;
+     we can even specify border-left,border-right,border-top,border-bottom separately
+
+ii. border-radius: it is the corner radius of element. we can also give radius for individual corners
+    border-radius: size;
+
+iii. padding : it is the gap between border and content of element. it will be applied inside the Box.
+      padding:size ; 
+      we can also apply individual sides but padding by default increase height/width of the box, so we need to make 
+      box-sizing:border-box;
+
+iv. margin :  it is the gap outside the border of element. 
+      margin:size;
+      it can also be applied to individual sides

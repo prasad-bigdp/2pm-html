@@ -1,0 +1,10 @@
+Position : Position is used to keep an elementat different points of screen(UI).There are 5 positions in CSS
+i. static :  it is the default position which will not be affected by top,left,right and Bottom
+
+ii. relative :  it is used to move the element top,left,bottom and right from the current position.
+
+iii. absolute:it is used to move the element top,left,bottom and right from the user intercae Body.
+
+iv. Fixed : it is used to move the element exactly like absolute but absolute elements scroll along with the page and Fixed elements Don't scroll along with the page.
+
+v.sticky : it is used to move the element as per absolute but once it reaches specific value, it will become fixed until its parent container is over

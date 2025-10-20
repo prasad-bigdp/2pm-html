@@ -1,0 +1,90 @@
+10/09/2025
+1. write a js code to print "hello world" in console.
+2. write a js code that shows difference between let,const and var
+3. write a js code to take two variables and print a+b, a-b, a/b, a*b
+
+11/09/2025
+4. write a jscode to declare variable different values and print their datatypes
+5. write a js code to show implicit and explicit type casting
+6. write a js code to show methods toFixed,toPrecision,toString
+7. write a js code to print the usage of different math methods
+
+12/09/2025
+8. write a js code to print random Number between 1-6 (dice),1-10,4-8,
+ -5 to 5
+9. write a js code to print random Number (OTP)
+10. write a js code to print string using single quotes and double quotes
+11. write a js code to print dynamic string values (Template literals).
+12. write a js code to print string methods usage.
+13. write a js code to use split method and print number of 'a's in "prasad"
+14. write a js code to use split method and print number of vowels in statemet
+ "js is so easy". 
+15. write a js code that shows difference between null and undefined.
+16. write a js code that prints no of 's' in 'mississippi'
+
+15/09/25
+17 . write a js code to print usage of Arithematic, logicalm relational operators (== and  ===)
+18. write a js code to print usage of increment and decrement (post and pre)
+19. write a js code to demonstrate ternary operator
+
+16/09/25
+20. write a js code that demonstrate simple if.write a js code to print hello prasad, if user is prasad
+21. write a js code to check a number even or odd
+22. write a js code to check a number positive or negitive
+23. write a js code to check whether given 3 digit number pallindrome or not
+24. write a js code to generate a random number between 1-14 and also accepts user input. if input is equal to random value then user won else print whether user value is greater than or less than the random number
+
+17/09/25
+25. write a js code to check whether given year is leap year or not
+26. write a js code to print day of week when number of the week is given (0-7 . Try switch)
+27. write a js code to perform calculator between two numbers
+// input a = 10 ,b =20, operator : + output : a+b = 30
+28. Write a js code to print largest number between three number(inputs) without using Math.max
+29 . Write a js code to prepare a quiz game where every question will have 4 options and when user selects one , if it is correct his score will increase
+30. write a js code that prints total of the billing based on its categories and respective GST tariffs
+      product category      GST
+      common household      5%
+      consumer products     18%
+      luxury and sin        40%
+    input : price -  4000 , category : common household
+    output : total is 200+4000 - 4200
+18/09/2025
+Loops :
+  1. using, while loop , print 1 to 20 (only even numbers) in console
+  2. using while loop add first 5 numbers and print in console
+  3. using a loop , print each and every letter of name "prasad" in reverse
+  4. using a loop, check whether given string is pallindrome or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

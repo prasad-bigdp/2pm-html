@@ -1,0 +1,72 @@
+colors: A good Design Depends on its brand colors. User Interface always should contain minimal number of colors which serves purpose to the brand and target audience.
+In CSS, colors can be added in multiple ways
+  -- Hex Code: every color will have a hexadecimal code of 6 letter followed by #
+  -- RGB(Red, Green,Blue) : every color can be represented as a combination of red,green,blue , each varies from 0 to 255
+  -- RGBA(red, green , blue,alpha): Along with red,green,blue you can also give alpha which represents lightness to darkness of color from 0.0 to 1.0
+  -- Name: VSCode provides lot of colors with names which you can use directly
+
+fonts : A Good Design also maintains minimum or single fonts in webpages for consistency. Fonts also represents Brand.There are 5 font families in the world.
+  1. serif : serif fonts have a stroke at every corner ,used for reading websites mostly. eg: Times new Roman
+  2. sans-serif : sans means no. sans serif will not contain any stroke at corner. used for general websites. eg: Arial,Inter
+  3. Monospace : These fonts contains same height leaving impact of typewriter.
+  4. Cursive : These fonts are styled and curved, used for grand look
+  5. fantasy/modern : These fonts are used for special effects(mostly unique fonts)
+
+How to put font in a web page?
+    font-family : This property is used to assign any font family which is available.
+    we can import font families from google fonts by following below procedure
+   search "google fonts" --> select a font --> click get font --> click "embed code" --> select "@import" and copy paste the code into CSS.
+   font-weight: it is used to measure the thickness of font(100 -900,bold,bolder)
+   font-style : it is used to make the style italic(normal/italic)
+   font-size: it is used to specify a certain size(small/large/x-large or by pixels)
+   text-align: it is used to align text (left/right/center/justify).
+
+units:  units represents measurement . we can measure css properties using
+   i. px (pixels) : it is least unit in screen to measure the size
+   ii. % (percentage): it is x% of parent element
+   iii. vw or vh: it means viewport width or viewport height which is X% of total screen width or screen height
+
+backgrounds: we can keep a color,an image or a gradient as background in CSS.
+    background-color : used to assign a color to the background.
+    background-image : used to assign an image to the background using 'url(image path)'
+    background-repeat: used to repeat the backgrounds
+    (repeat/repeat-x/repeat-y/no-repeat)
+    background-size:auto/cover/contain(used for the size of background)
+    background-attachement : fixed/scroll
+    background-position:left/top/rigt/bottom/center
+
+    background-image:linear-gradient(position,color1,color2.....).
+       position can be to left /to bottom /to right / to top /xdeg
+    background-image:radial-gradient(color1,colro2...) - colors in circular
+
+How to make text Gradient ?
+    Text color cannot be gradient directly , so make its color transparent and background gradient and clip the background.
+      color: transparent;
+   background-image: linear-gradient(to right,orange,blue);
+   background-clip: text;
+
+text Properties: we can even assign different properties to text such as
+    text-align : left/right/center/justify/auto
+    text-decoration: it is used to decorate the text
+    size shape color position;
+    text-shadow: used to shadow the text (xSize ySize color);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

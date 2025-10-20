@@ -1,0 +1,24 @@
+Basic JS:
+    Introduction
+    variables
+    DataTypes (number - math methods, strings - string methods, boolean
+               undefined, null)
+    operators
+    control statements(if, switch)
+    loops(while,do while, for, for of , for in)
+    functions
+    Arrays
+    objects
+
+DOM(Document Object Model) :
+        DOM selection, DOM manipulation, DOM creation
+        Events
+  create simple shopping cart where it shows all products from an array and each product have a button 'add to cart' and when you click that button , it increases cartCount
+  beginner : freecodecamp, https://javascript.info/
+  average: jschallenger , leetcode js 30days
+  practice : small projects
+Advanced JS:
+    timers, AJAX,API's
+    promises, fetch, async await
+    libraries, BOM, ES6
+    

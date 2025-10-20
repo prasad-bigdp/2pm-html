@@ -1,0 +1,86 @@
+Operators : Operators are used to perform operations between operands. There are different kinds of Operators such as
+   i. unary Operators : it uses only one operand
+      eg: a++
+   ii.Binary Operators: it used atleast two Operands
+      eg: a+b, a-b
+  iii. Ternary Operators (or) Conditional Operators:
+       it uses three  operands 
+     eg: let x = (5 > 3) ? 5 : 3;
+     
+Different Operators:
+  1. Arithematic Operators:
+        + -- used for addition
+        - -- used for subtraction
+        * -- used for multiplication
+        / -- used for division eg: 1/3 = 0.33333
+        % -- used for remainder eg: 1%3 = 1
+        ** -- used for power eg:2**3 = 8
+
+
+ 2. Logical Operators:
+      && -- Logical AND -- will be true only if all conditions are true
+      || -- Logical OR -- will be true if any one condition is true
+      ! -- Logical NOT -- will be true if actual conditions is false
+
+
+ 3. Relational Operators:
+      >  -- greater than
+      <  -- less than
+      >= -- greater than or equals to
+      <= -- less than or equals to
+      == -- used to check whether values are equal or not (2 == '2' -- true)
+      === -- used to check whether values and datatypes are equal or not 
+             (2 === '2' -- false )
+      !=  -- used to check whether values are not equal or equal (2 != '2' -- false)
+      !==  -- used to check whether values and datatypes are not equal or equal (2 !== '2' -- true)
+
+    4. Assignment Operators : These Operators also called as shorthand Operators
+      a += 2 ===> a=a+2;
+      a-=2 ==>a=a-2;
+      a*=2 ==> a=a*2;
+      a/=2 ==> a=a/2;
+      a%=2 ==> a=a%2;
+      a**=2 ==> a=a**2;
+      Even '=' is also assignment operators which is used to assign a value
+
+    5. Increment and decrement Operators: These Operators are used to increase or decrease a value by 1
+    There are two variations such pre increment and post increment
+     pre-increment : it will first update the value and then returns the value
+     let a= 10;
+     let x = ++a;
+     console.log(x) //11
+
+     post increment : it will first returns the value and then updates the value
+     let a= 10;
+     let x = a++;
+     console.log(x) //10
+     similar for pre decrement and post decrement also
+ 
+  6. unary '+' : it is used to convert strings to numbers
+  eg: 5 + +'4' = 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

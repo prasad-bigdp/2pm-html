@@ -1,0 +1,28 @@
+Media in HTML:
+ HTML5 introduces lot of media elements such as video,audio,picture,iframe etc..,
+ These tasks are typically used to present media in web pages.
+ i. video :  it is used to display videos in webpages, it access source using 'source' tag with 'src' attribute
+  <video height="400"  controls autoplay muted loop>
+        <source src="./6.mp4">
+     </video>
+
+ii. audio : it is used to display audios in webpages, it also acces source using 'source' tag with 'src' attribute.
+   <!-- audio file -->
+      <audio controls autoplay loop >
+        <source src="./file_example_MP3_1MG (3).mp3">
+      </audio>
+
+iii. Iframe: Iframe is used to display one web page inside another web page
+it can also be used to print multiple resources such as pdfs,docs, 3rdparty websites
+   it can use height, width and frameborder to make the border zero
+   <iframe src="path" frameborde="0"></iframe>
+
+iv. track: track is used to provides captions or subtitles for videos
+<track src="" lang="en" />
+
+v. picture: picture is used to display responsive images
+
+
+
+
+

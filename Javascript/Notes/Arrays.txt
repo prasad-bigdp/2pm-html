@@ -1,0 +1,235 @@
+Arrays : Array is a collection of items. Arrays are represented by square brackets and each element in the array will have an address called 'index'. indexes starts from zero
+let a = ["raj",1,true];
+let arr = [5,4,8,9,0,-3];
+console.log(arr[1]); //4
+console.log(arr.length) //6
+console.log(arr[23]);  //undefined
+
+Array Methods : 
+    There are numerous array methods such as
+    i. push(values): it is used to add elements at the end of the array
+             ArrayName.push(value1,value2,......)
+
+    ii. pop() : it is used to remove the last element of the array
+             ArrayName.pop();
+    
+    iii. unshift(values): it is used to add elements at the starting of the array
+             ArrayName.unshift(value1,value2,....)
+
+     iv. shift() : it is used to remove the first element of the array
+             Array.shift();
+
+      v. splice(starting_index_number , deleteCount , inserting_values):
+          it is used to add elements at any index values or delete multiple values from any index value
+         let names = ["raj","shyam","shekhar","john","sita"]
+         i. delete "shyam" and "shekhar"
+              names.splice(1,2)
+            
+         names = ["raj","shyam","shekhar","john","sita"]
+         i. delete "shekhar" and add "raja","puja", "maaja"
+              names.splice(2,0,"raja","puja", "maaja")
+
+  TasK :  let friends = ["sheldon","monica","joey","rachel","ross","penny"];
+      1. remove sheldon and add "chandler" // friends.splice(0,1,"chandler")
+      friends.shift();friends.unshift("chandler")
+      2. remove penny and add "pheobe" // friends.splice(5,1,"pheobe")
+      friends.pop();friends.push("pheobe")
+      3. insert "emma" between "rahcel" and "ross" 
+         friends.splice(4,0,"emma")
+
+   6. indexOf(element): it is used to return the index of element's first occurence in given array
+        let arr =[5,4,3,8,4,7];
+        console.log(arr.indexOf(4)) //1
+        console.log(arr.lastIndexOf(4)) //4
+
+   7. reverse : it is used to reverse the given array
+          let arr = [1,2,3,4];
+          arr.reverse();
+          consoel.log(arr); //[4,3,2,1]
+
+   8.  join : it is the opposite of split in string methods
+      ["raja","prasad"].join(" "); // raja prasad
+
+Task :  reverse the given sentense
+"Easy So is Javascript"
+let str = "Easy So is Javascript"
+str.split(" ").reverse().join(" ")
+
+   9.  forEach (callback(ele,ind)):
+          ForEach will take a callback function and pass that callback function
+          for each and every element of the array
+          ArrayName.forEach(function(ele,ind){
+               //body
+          })
+          forEach cannpt return the values;
+     let arr = [5,4,3,2,1] . print squares of each element
+          arr.forEach(function(e,i){
+               console.log(e*e);
+          })
+     but if i tried to return elements whose value is greater than 2
+         let x=  arr.forEach(function(e,i){
+               return ele>2
+          })
+          console.log(x) // undefined
+
+   10. map : map also used to traverse the array and pass a callback to each and every element of the array but map returns the values as a new array
+    ArrayName.map(function(ele,ind){
+     return data;
+    })
+    let names = ["John","Peter","Ram","Krishna"];Return First Letters of all
+    the names as a new array
+    let y = names.map((ele,ind)=> ele.charAt(0))
+    console.log(y) //['J','P','R','K']
+    names = ["shinchan","mexi","Himawari"] .Return only the names that ends with  'i' 
+    let z = names.map((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //[F,T,T];
+
+  Filter : filter is used to return elements (specific) whose condition is true
+  it works similar as map but return only true elements
+   
+ let z = names.filter((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //["mexi","Himawari"]
+
+  Find : it is used similarly as filter but returns only the first element that satisfies the condition
+
+ let z = names.find((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //"mexi"
+
+    we can also get last occurence using FindLast
+
+  some: it is also used similarly as filter but returns true/false based on whether atleast one of the element satisfies the condition or Not.
+   let z = names.some((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //true
+
+   Every: it is also used similarly as filter but returns true/false based on whether every element satisfies the condition or Not.
+   let z = names.every((ele,ind)=>{
+     return ele.endswith('i')
+    })
+    console.log(z) //false
+  
+   sort(): sort is used to sort out elements as alphabetically. In case of numbers , we can pass callback to return values for ascending or descending order
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

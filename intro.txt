@@ -1,0 +1,10 @@
+Introduction to WEB  (client-server architecture)
+Figma
+HTML
+CSS
+Bootstrap
+Portfolio
+Course Landing Page
+JS
+Advanced JS
+Project (Ecommerce / OTT)

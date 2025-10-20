@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;    
+    --my-color: rebeccapurple;  
+    --my-black:rgb(16, 12, 12);
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+}
+.watsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  animation: upDown 0.5s ease infinite alternate;
+}
+.watsapp>img{
+  height: 50px;
+  width: 50px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color: var(--my-black);
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.logo{
+  font-size: 48px;
+  animation: upDown 0.5s ease infinite alternate;
+}
+@keyframes upDown {
+    100%{
+        transform: translateY(-5px);
+    }
+}
+.logo>span{
+    color:var(--my-color);
+}
+nav>ul>li>a:hover{
+    color: var(--my-color);
+}
+li:hover{
+    transform: scale(1.05);
+}
+
+/* header css over */
+/* banner CSS starts here */
+  #banner{
+    max-width: 1280px;
+    margin: 50px auto;
+    display: flex;
+    gap: 100px;
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left>h2{
+    font-size: 32px;
+  }
+  .left>h2>span{
+    color: var(--my-color);
+  }
+  .left>p{
+    color: rgb(133, 132, 132);
+    text-align: justify;
+    line-height: 20px;
+  }
+  .buttons>button{
+    padding: 15px 30px;
+    background-color: var(--my-black);
+    border-radius: 20px;
+  }
+  button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+
+  .secondBtn{
+    background-color: white !important;
+    border: 1px solid var(--my-black);
+  }
+  .secondBtn>a{
+    color: black;
+  }
+
+  .right>img{
+    animation: upDown 1s ease infinite alternate;
+  }
+
+/* banner css over */
+/* about css starts */
+.title{
+  text-align: center;
+  margin: 50px auto;
+  background-image: linear-gradient(to right, orange,var(--my-color));
+  color: transparent;background-clip: text;
+  font-size: 32px; width: max-content;
+}
+ section{
+  max-width: 1280px;margin:50px auto;
+ }
+ #about{
+  padding: 30px;border-radius: 20px; box-shadow: 5px 5px 10px var(--my-color);
+  font-size: 24px;display: flex; flex-direction: column; gap: 20px;
+ }
+ li{
+  list-style-type: none;
+ }
+/* about css is over*/
+/* skills css starts */
+#skills{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 40px;
+}
+.skill{
+  height: 80%;
+  width:100%;
+}
+.skill:hover{
+  transform: scale(1.05);
+}
+/* skills css over */
+/* projects css starts */
+    #projects{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+    }
+    .project{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 5px 5px 10px var(--my-color);
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .project>img{
+      height: 100%;
+      width: 100%;
+    }
+    .project>button{
+      padding: 10px;
+      background-color: var(--my-black);
+      color: white;
+      border-radius: 20px;
+    }
+    .project:hover{
+      scale: 1.05;
+    }
+/* projects css over */
+/* contact css starts */
+   #contact{
+    padding: 30px; box-shadow: 5px 5px 10px var(--my-color);
+    display: flex;flex-direction: column;gap: 10px;border-radius: 20px;
+   }
+   .social-links img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   }
+/* contact css ends */
+
+/* footer css */
+footer{
+  background-color: black;
+  color: white; text-align: center; font-size: 14px;padding: 20px 0px;
+}
+.title{
+  display: flex; gap: 10px;
+  background-blend-mode: difference;
+}
+.letter{
+  animation: textAnimations 2s steps(6) alternate infinite;
+  display: block;
+}
+.letter1{
+  animation-delay: 0.2s;
+}
+.letter2{
+  animation-delay: 0.4s;
+}
+.letter3{
+  animation-delay: 0.6s;
+}
+.letter4{
+  animation-delay: 0.8s;
+}
+.letter5{
+  animation-delay: 1s;
+}
+
+@keyframes textAnimations{
+   0%{
+    width:0;
+   }
+   100%{
+    width:100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:576px){
+  body{
+    background-color: red;
+  }
+  header{
+    flex-direction: column;
+  }
+   #banner{
+    flex-direction: column;align-items: center; margin: 50px;
+  }
+  .right>img{display: none;}
+  .buttons{
+    display: flex; flex-direction: column; gap: 20px;
+  }
+  section{
+    margin: 50px;
+  }
+  #about{
+    font-size: 16px;
+  }
+  #skills{
+    grid-template-columns: repeat(3,1fr);
+  }
+  #projects{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+@media (min-width:577px) and (max-width:900px){
+  header{
+    flex-direction: column;
+  }
+  #banner{
+    flex-direction: column;align-items: center; margin: 50px;
+  }
+ section{
+    margin: 50px;
+  }
+  #about{
+    font-size: 24px;
+  }
+  #skills{
+    grid-template-columns: repeat(5,1fr);
+  }
+  #projects{
+    grid-template-columns: repeat(2,1fr);
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
